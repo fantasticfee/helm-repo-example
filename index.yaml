@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   mssql-linux:
   - apiVersion: v1
-    created: "2019-08-13T16:53:03.782531016+08:00"
+    created: "2019-08-13T16:58:52.355049172+08:00"
     description: SQL Server 2017 Linux Helm Chart
     digest: 9bb8094c1d8af473f54e278660ee4b59433c87679235ab8a139d78310ae6ee19
     icon: https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1I4Dx
@@ -13,22 +13,22 @@ entries:
     sources:
     - https://hub.docker.com/r/microsoft/mssql-server-linux/
     urls:
-    - https://github.com/fantasticfee/helm-repo-example/mssql-linux-0.1.6.tgz
+    - https://github.com/fantasticfee/helm-repo-example/blob/master/mssql-linux-0.1.6.tgz
     version: 0.1.6
   mychart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-13T16:53:03.784835087+08:00"
+    created: "2019-08-13T16:58:52.355637427+08:00"
     description: A Helm chart for Kubernetes
     digest: 7be95d4c7666fdfac4a25fa11ba874fd0f65d211b6c53a27435ddf058232dad4
     name: mychart
     urls:
-    - https://github.com/fantasticfee/helm-repo-example/mychart-0.1.0.tgz
+    - https://github.com/fantasticfee/helm-repo-example/blob/master/mychart-0.1.0.tgz
     version: 0.1.0
   nginx-ingress:
   - apiVersion: v1
     appVersion: 0.25.0
-    created: "2019-08-13T16:53:03.786890532+08:00"
+    created: "2019-08-13T16:58:52.373936091+08:00"
     description: An nginx Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 6a8c5f1ec526ea10b00574ebfb7a16a626280ec2997b3c5675906f4a7b4cd854
@@ -50,12 +50,12 @@ entries:
     sources:
     - https://github.com/kubernetes/ingress-nginx
     urls:
-    - https://github.com/fantasticfee/helm-repo-example/nginx-ingress-1.9.1.tgz
+    - https://github.com/fantasticfee/helm-repo-example/blob/master/nginx-ingress-1.9.1.tgz
     version: 1.9.1
   nginx-ldapauth-proxy:
   - apiVersion: v1
     appVersion: 1.13.5
-    created: "2019-08-13T16:53:03.787409353+08:00"
+    created: "2019-08-13T16:58:52.374548221+08:00"
     description: nginx proxy with ldapauth
     digest: 454951c98af50cd81146baa4be64fa1e6dd5c52b389fe958248f69ead04441f0
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
@@ -69,6 +69,6 @@ entries:
     - https://github.com/dweomer/dockerfiles-nginx-auth-ldap
     - https://github.com/kvspb/nginx-auth-ldap
     urls:
-    - https://github.com/fantasticfee/helm-repo-example/nginx-ldapauth-proxy-0.1.2.tgz
+    - https://github.com/fantasticfee/helm-repo-example/blob/master/nginx-ldapauth-proxy-0.1.2.tgz
     version: 0.1.2
-generated: "2019-08-13T16:53:03.767177406+08:00"
+generated: "2019-08-13T16:58:52.352015513+08:00"

@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  mssql-linux:
+  - apiVersion: v1
+    created: "2019-08-13T15:25:19.238791169+08:00"
+    description: SQL Server 2017 Linux Helm Chart
+    digest: 9bb8094c1d8af473f54e278660ee4b59433c87679235ab8a139d78310ae6ee19
+    icon: https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1I4Dx
+    maintainers:
+    - email: tliddle30@gmail.com
+      name: thomasliddledba
+    name: mssql-linux
+    sources:
+    - https://hub.docker.com/r/microsoft/mssql-server-linux/
+    urls:
+    - mssql-linux-0.1.6.tgz
+    version: 0.1.6
   mychart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-13T14:58:54.864365359+08:00"
+    created: "2019-08-13T15:25:19.239716749+08:00"
     description: A Helm chart for Kubernetes
     digest: 7be95d4c7666fdfac4a25fa11ba874fd0f65d211b6c53a27435ddf058232dad4
     name: mychart
@@ -13,7 +28,7 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: 0.25.0
-    created: "2019-08-13T14:58:54.868505122+08:00"
+    created: "2019-08-13T15:25:19.242945958+08:00"
     description: An nginx Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 6a8c5f1ec526ea10b00574ebfb7a16a626280ec2997b3c5675906f4a7b4cd854
@@ -37,4 +52,4 @@ entries:
     urls:
     - nginx-ingress-1.9.1.tgz
     version: 1.9.1
-generated: "2019-08-13T14:58:54.861769044+08:00"
+generated: "2019-08-13T15:25:19.237924992+08:00"

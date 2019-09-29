@@ -1,0 +1,7 @@
+kind: Setting
+metadata:
+  annotations:
+    "helm.sh/hook": "post-install"
+  name: backup-target
+  namespace: cubepaas-bs
+value: {{ .Values.s3 }}

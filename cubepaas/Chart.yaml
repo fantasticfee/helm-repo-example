@@ -1,0 +1,11 @@
+apiVersion: v1
+name: cubepaas
+description: Install Cubepaas Server to manage Kubernetes clusters across providers.
+version: v1.0.6
+appVersion: v1.0.6
+home: http://cubepaas.com
+keywords:
+  - cubepaas
+maintainers:
+  - name: CubePaaS Team
+    email: support@linkcloud.cn
